@@ -1,7 +1,7 @@
-Next.js Project with Headless CMS and Dynamic Route
+# Next.js Project with Headless CMS and Dynamic Route
 This project is a Next.js application built with the App Router, integrated with a headless CMS, featuring responsive design, theme toggle (light/dark mode), and performance optimization. Basic unit and e2e tests have been implemented as well.
 
-Features
+## Features
 Next.js App Router:
 
 Fully responsive across different screen sizes, ensuring optimal user experience on mobile, tablet, and desktop.
@@ -19,7 +19,7 @@ Testing:
 
 Basic unit tests using Jest and e2e tests using Cypress.
 
-Technologies Used
+## Technologies Used
 Next.js: React framework with built-in performance optimizations.
 Swell/Contentful: Headless CMS for managing dynamic content.
 Tailwind CSS: For styling and responsive design.
