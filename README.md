@@ -25,3 +25,27 @@ Swell/Contentful: Headless CMS for managing dynamic content.
 Tailwind CSS: For styling and responsive design.
 Cypress: For end-to-end testing.
 Vercel: Deployment platform.
+
+/app
+  /dynamic
+    [id]/page.js          # Dynamic route page
+  /layout.js              # Main layout
+  /page.js                # Home page
+
+/Client
+  Header.js               # Header component
+  Footer.js               # Footer component
+  ThemeToggle.js          # Theme toggle button
+
+/public
+  /images                 # Images used in the project
+
+/styles
+  globals.css             # Global styles
+
+/tests
+  /unit                   # Unit tests
+  /e2e                    # End-to-end tests
+
+.env.local                # CMS API credentials
+
