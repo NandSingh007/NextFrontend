@@ -23,7 +23,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        <MainBox />
+        {/* <MainBox /> */}
+        {children}
       </body>
     </html>
   );
